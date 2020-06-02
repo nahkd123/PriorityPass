@@ -1,0 +1,11 @@
+name: PriorityPass
+version: 1.0.0
+author: nahkd123
+main: me.nahkd.spigot.prioritypass.PriorityPass
+api: []
+api-version: "1.15" # 1.15+
+
+permissions:
+  prioritypass.pass:
+    description: "Allow to join the server when full"
+    default: op
